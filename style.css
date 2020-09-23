@@ -4,12 +4,13 @@
   padding: 80px 15px 40px;
 }
 .calc {
+  border: 1px solid  rgb(70, 70, 70); ;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  width: 385px;
+  width: 380px;
   height: 540px;
-  background-color: aquamarine;
+  background-color: rgba(61, 240, 195, 0.8);
   margin: 20px auto;
   padding: 30px;
 }
@@ -21,21 +22,39 @@
   margin: 10px;
   background-color: black;
 }
+.display-input {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: right;
+  background-color: black;
+  font-size: 40px;
+}
+
 /*button space*/
 .calc-grid {
   width: 94%;
   height: 80%;
-  margin: 30px auto;
+  margin: 30px auto 0px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(4, [col] 1fr);
   grid-template-rows: repeat(5, [row] 1fr);
 }
 .but {
-    outline: none;
-    border-radius: 200px;
+  background-color: rgba(225, 235, 235, 0.747);
+  outline: none;
+  border-radius: 25px;
   width: 100%;
   height: 100%;
+  font-family: Lato;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  cursor: pointer;
 }
 .num-but16 {
   grid-row: span 2;
