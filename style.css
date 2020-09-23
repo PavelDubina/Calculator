@@ -1,0 +1,45 @@
+.container {
+  width: 650px;
+  margin: 0 auto;
+  padding: 80px 15px 40px;
+}
+.calc {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  height: 540px;
+  background-color: aquamarine;
+  margin: 20px auto;
+  padding: 30px;
+}
+.display {
+  border-radius: 5px;
+  display: block;
+  width: 94%;
+  height: 20%;
+  margin: 10px;
+  background-color: black;
+}
+/*button space*/
+.calc-grid {
+  width: 94%;
+  height: 80%;
+  margin: 30px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, [col] 1fr);
+  grid-template-rows: repeat(5, [row] 1fr);
+}
+.but {
+    outline: none;
+    border-radius: 200px;
+  width: 100%;
+  height: 100%;
+}
+.num-but16 {
+  grid-row: span 2;
+}
+.num-but17 {
+  grid-column: span 2;
+}
