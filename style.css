@@ -25,9 +25,9 @@
 .display-input {
   border: none;
   height: 75px;
-  width: 96%;
+  width: 340px;
   margin: 0px;
-  padding: 0 4% 0 0;
+  padding: 0px 10px;
   color: white;
   text-align: right;
   background-color: black;
