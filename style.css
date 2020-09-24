@@ -12,7 +12,7 @@
   height: 540px;
   background-image: url(https://i.pinimg.com/originals/76/7f/0a/767f0aaac54b38df3832b4c673df5a76.jpg);
   /*background-color: rgba(61, 240, 195, 0.8);*/
-  margin: 20px auto;
+  margin: 200px auto;
   padding: 30px;
 }
 .display {
@@ -25,13 +25,13 @@
 .display-input {
   border: none;
   height: 75px;
-  width: 100%;
+  width: 96%;
   margin: 0px;
-  padding: 0px;
+  padding: 0 4% 0 0;
   color: white;
   text-align: right;
   background-color: black;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 /*button space*/
